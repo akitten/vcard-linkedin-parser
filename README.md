@@ -5,7 +5,9 @@
 
 ## Why
 
-LinkedIn give you the choice to export your contacts using the vCard format. However if you need to do some data manipulation it is easier to use a json format. So this module will convert a vcard LinkedIn format to a json format.
+LinkedIn give you the choice to export your contacts using the [vCard](https://en.wikipedia.org/wiki/VCard) format (see https://www.linkedin.com/people/export-settings). However if you need to do some data manipulation with javascript it is easier to use a json format.
+
+this module will convert a vcard LinkedIn format string to a json format.
 
 ##  How
 
