@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/akitten/vcard-linkedin-parser.svg)](https://travis-ci.org/akitten/vcard-linkedin-parser)
 [![codecov.io](https://codecov.io/github/akitten/vcard-linkedin-parser/coverage.svg?branch=master)](https://codecov.io/github/akitten/vcard-linkedin-parser?branch=master)
-[![Dependency Status](https://david-dm.org/akitten/vcard-linkedin-parser)](https://david-dm.org/akitten/vcard-linkedin-parser)
+[![Dependency Status](https://david-dm.org/akitten/vcard-linkedin-parser.svg)](https://david-dm.org/akitten/vcard-linkedin-parser)
+[![devDependency Status](https://david-dm.org/akitten/vcard-linkedin-parser/dev-status.svg)](https://david-dm.org/akitten/vcard-linkedin-parser#info=devDependencies)
 # vcard-linkedin-parser
 
 ## Why
@@ -17,7 +18,7 @@ npm install vcard-linkedin-parser --save
 Then in your scripts
 
 ```
-var fs = require(fs);
+var fs = require('fs');
 var vcard_linkedin_parser = require('vcard-linkedin-parser');
 
 var myVcardFile = fs.readFileSync('urlOfMyFile', 'utf-8');
