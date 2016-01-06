@@ -1,0 +1,32 @@
+{
+  "name": "vcard-linkedin-parser",
+  "version": "1.0.0",
+  "description": "Parse vCard LinkedIn into JSON format",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/tape/bin/tape ./test/*test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akitten/vcard-linkedin-parser.git"
+  },
+  "keywords": [
+    "vCard",
+    "LinkedIn",
+    "parser",
+    "JSON"
+  ],
+  "author": "heron2014 simonlab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akitten/vcard-linkedin-parser/issues"
+  },
+  "homepage": "https://github.com/akitten/vcard-linkedin-parser#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.1",
+    "tape": "^4.4.0"
+  }
+}

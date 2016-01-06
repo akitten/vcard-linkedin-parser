@@ -1,0 +1,24 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Gump;Forrest
+FN:Forrest Gump
+TITLE:Shrimp Man
+ORG:Bubba Gump Shrimp Co.
+EMAIL;INTERNET:forrestgump@example.com
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:Vader;Darth
+FN:Darth Vader
+TITLE:Hero
+ORG:Star Wars Co.
+EMAIL;INTERNET:darfvader@example.com
+END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:Jones;Tom
+FN:Tom Jones
+TITLE:Singer
+ORG:Sinder Co.
+EMAIL;INTERNET:tomjones@example.com
+END:VCARD
