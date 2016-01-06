@@ -24,7 +24,7 @@ module.exports = function(vcards) {
       result[currentIndex].email = line.substr(15);
     }
 
-    if(line === "END:VCARD"){
+    if(line.startsWith("END:VCARD")){
       currentIndex += 1;
     }
   })
