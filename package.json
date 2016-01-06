@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/tape/bin/tape ./test/*test.js"
+    "fast": "./node_modules/tape/bin/tape ./test/*test.js",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*test.js && istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100",
+    "jshint": "jshint -c .jshintrc --exclude-path .gitignore ."
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,7 @@
     "parser",
     "JSON"
   ],
-  "author": "heron2014 simonlab",
+  "author": "John Smith & Friends",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/akitten/vcard-linkedin-parser/issues"
@@ -27,6 +29,8 @@
   "homepage": "https://github.com/akitten/vcard-linkedin-parser#readme",
   "devDependencies": {
     "istanbul": "^0.4.1",
+    "jshint": "^2.8.0",
+    "pre-commit": "^1.1.2",
     "tape": "^4.4.0"
   }
 }
