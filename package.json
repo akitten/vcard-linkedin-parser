@@ -22,7 +22,7 @@
     "JSON"
   ],
   "author": "John Smith & Friends",
-  "license": "ISC",
+  "license": "GPL-2.0",
   "bugs": {
     "url": "https://github.com/akitten/vcard-linkedin-parser/issues"
   },
@@ -32,5 +32,9 @@
     "jshint": "^2.8.0",
     "pre-commit": "^1.1.2",
     "tape": "^4.4.0"
-  }
+  },
+  "pre-commit": [
+    "jshint",
+    "test"
+  ]
 }
