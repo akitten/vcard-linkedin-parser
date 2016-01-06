@@ -18,7 +18,7 @@ npm install vcard-linkedin-parser --save
 Then in your scripts
 
 ```
-var fs = require(fs);
+var fs = require('fs');
 var vcard_linkedin_parser = require('vcard-linkedin-parser');
 
 var myVcardFile = fs.readFileSync('urlOfMyFile', 'utf-8');
