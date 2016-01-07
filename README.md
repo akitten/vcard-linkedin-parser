@@ -10,6 +10,46 @@ LinkedIn give you the choice to export your contacts using the [vCard](https://e
 
 this module will convert a vcard LinkedIn format string to a json format.
 
+## What
+
+LinkedIn vcard format example:
+
+```
+BEGIN:VCARD
+VERSION:2.1
+N:Nash;John
+FN:John Nash
+TITLE:Mathematician
+ORG:Game theory
+EMAIL;INTERNET:john.nash@.gametheory.co.uk
+END:VCARD
+.
+.
+.
+```
+where:
+- N: are the name
+- FN: is the formated name
+- TITLE: is the Linkedin headline
+- ORG: is the current organization
+- EMAIL;INTERNET: is the email
+
+This will be converted to an array of objects:
+
+```
+[
+  {
+    names: ["Nash", "John"],
+    fullname: "John Nash",
+    headline: "Mathematician",
+    org: "Game theory",
+    email: "john.nash@.gametheory.co.uk"
+  },
+  .
+  .
+  .
+]
+```
 ##  How
 
 ```
