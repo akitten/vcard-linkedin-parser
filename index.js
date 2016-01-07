@@ -8,16 +8,20 @@ module.exports = function(vcards) {
       result[currentIndex] = {}
     }
 
+    if(line.startsWith("N:")) {
+      result[currentIndex].names = line.substr(2).split(';');
+    }
+
     if(line.startsWith('FN:')) {
-      result[currentIndex].name =  line.substr(3);
+      result[currentIndex].fullname =  line.substr(3);
     }
 
     if(line.startsWith('TITLE:')) {
-      result[currentIndex].title = line.substr(6);
+      result[currentIndex].headline = line.substr(6);
     }
 
     if(line.startsWith('ORG:')) {
-      result[currentIndex].company = line.substr(4);
+      result[currentIndex].org = line.substr(4);
     }
 
     if(line.startsWith("EMAIL;INTERNET:")) {

@@ -22,3 +22,11 @@ TITLE:Singer
 ORG:Sinder Co.
 EMAIL;INTERNET:tomjones@example.com
 END:VCARD
+BEGIN:VCARD
+VERSION:2.1
+N:Nash;John
+FN:John Nash
+TITLE:Mathematician
+ORG:Game theory
+EMAIL;INTERNET:john.nash@.gametheory.co.uk
+END:VCARD

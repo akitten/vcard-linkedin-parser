@@ -1,6 +1,6 @@
 {
   "name": "vcard-linkedin-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parse vCard LinkedIn into JSON format",
   "main": "index.js",
   "directories": {
